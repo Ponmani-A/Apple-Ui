@@ -9,12 +9,12 @@ const links = [
   { name: "Mac", path: "/mac" },
   { name: "iPad", path: "/books" },
   { name: "iPhone", path: "/iphone" },
-  { name: "Watch", path: "#" },
+  { name: "Watch", path: "/watch-ultra" },
   { name: "AirPods", path: "/airpods" },
-  { name: "TV & Home", path: "#" },
-  { name: "Entertainment", path: "#" },
-  { name: "Accessories", path: "#" },
-  { name: "Support", path: "#" },
+  { name: "TV & Home", path: "/music" },
+  { name: "Entertainment", path: "/podcasts" },
+  { name: "Accessories", path: "/accessories" },
+  { name: "Support", path: "/support" },
 ];
 
 function Navbar() {

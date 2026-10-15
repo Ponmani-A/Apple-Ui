@@ -10,7 +10,6 @@ function Books() {
     <>
       <Navbar />
 
-      {/* Local nav: Apple Books title */}
       <div className="bg-white">
         <div className="mx-auto flex h-[51px] max-w-[980px] items-center px-5">
           <span className="text-[17px] font-semibold lg:text-[21px]">

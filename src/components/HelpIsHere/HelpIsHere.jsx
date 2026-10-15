@@ -11,7 +11,6 @@ function HelpIsHere() {
         light="Whenever and however you need it."
       />
       <div className="mx-auto grid max-w-[980px] grid-cols-1 gap-3 px-5 md:grid-cols-2">
-        {/* Specialist */}
         <div className="flex h-[460px] flex-col overflow-hidden rounded-[18px] bg-white p-6 md:h-[500px] md:p-7">
           <p className="text-[11px] font-semibold uppercase text-[#6e6e73]">
             Apple Specialist
@@ -26,7 +25,6 @@ function HelpIsHere() {
           />
         </div>
 
-        {/* Right side: 2 cards */}
         <div className="flex flex-col gap-3">
           <div className="flex h-[240px] flex-col overflow-hidden rounded-[18px] bg-white p-6 md:h-[244px]">
             <h3 className="text-xl font-semibold">

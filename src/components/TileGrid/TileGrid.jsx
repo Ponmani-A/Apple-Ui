@@ -9,7 +9,6 @@ import appleLogo from "../../assets/Apple.png";
 function TileGrid() {
   return (
     <div className="mb-2.5 grid grid-cols-1 gap-2.5 px-2.5 md:grid-cols-2">
-      {/* iPad */}
       <section className="flex h-[440px] flex-col items-center overflow-hidden bg-[#fbfbfb] px-4 pt-10 text-center text-[#1d1d1f] sm:h-[500px] md:pt-[58px] lg:h-[580px]">
         <h2 className="text-[32px] font-semibold leading-[1.1] md:text-[40px]">
           iPad

@@ -6,6 +6,11 @@ import Mac from "./pages/Mac/Mac";
 import Iphone from "./pages/Iphone/Iphone";
 import Airpods from "./pages/Airpods/Airpods";
 import Books from "./pages/Books/Books";
+import Podcasts from "./pages/Podcasts/Podcasts";
+import Music from "./pages/Music/Music";
+import WatchUltra from "./pages/WatchUltra/WatchUltra";
+import Support from "./pages/Support/Support";
+import Accessories from "./pages/Accessories/Accessories";
 
 function App() {
   return (
@@ -18,6 +23,11 @@ function App() {
         <Route path="/iphone" element={<Iphone />} />
         <Route path="/airpods" element={<Airpods />} />
         <Route path="/books" element={<Books />} />
+        <Route path="/podcasts" element={<Podcasts />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/watch-ultra" element={<WatchUltra />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/accessories" element={<Accessories />} />
       </Routes>
     </div>
   );

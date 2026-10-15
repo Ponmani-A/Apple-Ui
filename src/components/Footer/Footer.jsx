@@ -1,4 +1,3 @@
-// Style variables: ingaye maathina footer muluvadhum maarum
 const firstHeading = "mb-2 text-xs font-semibold text-[#1d1d1f]";
 const heading = "mb-2 mt-5 text-xs font-semibold text-[#1d1d1f]";
 const link = "block py-1 text-xs text-[#424245] hover:underline";
