@@ -14,7 +14,7 @@ function StoreIcons() {
     <ScrollRow>
       <a
         href="#"
-        className="flex w-[110px] shrink-0 flex-col items-center gap-3 md:w-[130px]"
+        className=" flex w-[110px] shrink-0 flex-col items-center gap-3 md:w-[130px]"
       >
         <img src={mac} alt="Mac" className="h-[70px] w-auto md:h-[80px]" />
         <span className="text-xs font-semibold">Mac</span>

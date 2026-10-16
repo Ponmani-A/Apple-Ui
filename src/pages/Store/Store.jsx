@@ -17,7 +17,7 @@ function Store() {
     <>
       <Navbar />
       <PromoBanner />
-      <main className="bg-[#f5f5f7] pb-16">
+      <main className="bg-[#f5f5f7] pb-16 ">
         <StoreHeader />
         <StoreIcons />
         <TheLatest />

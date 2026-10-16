@@ -3,7 +3,7 @@ import storeIcon from "../../assets/icon-store.png";
 
 function StoreHeader() {
   return (
-    <header className="mx-auto flex max-w-[980px] flex-col gap-6 px-5 pb-10 pt-12 md:flex-row md:items-start md:justify-between md:pt-16">
+    <header className=" mx-auto flex max-w-[980px] flex-col gap-6 px-5 pb-10 pt-12 md:flex-row md:items-start md:justify-between md:pt-16">
       <h1 className="max-w-[560px] text-[32px] font-semibold leading-[1.1] md:text-[48px]">
         Store. The best way to buy the products you love.
       </h1>
