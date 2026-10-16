@@ -45,7 +45,7 @@ function PodcastsFaq() {
           <div key={f.q} className="border-b border-[#d2d2d7]">
             <button
               onClick={() => setOpen(open === i ? -1 : i)}
-              aria-expanded={open === i}
+              aria-expanded={open === i} //aria-expanded={true} → Question open-ah irukku.
               className="flex w-full items-center justify-between gap-4 py-[25px] text-left text-[17px] font-semibold leading-6 lg:text-[21px]"
             >
               {f.q}

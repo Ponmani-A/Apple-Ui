@@ -10,7 +10,6 @@ import tile7 from "../../assets/airpods.jpg";
 import tile8 from "../../assets/phonecard.jpg";
 import podcasts from "../../assets/podcasts-hero-phone.png";
 
-// Podcast card details
 const leftPodcasts = [
   {
     title: "REFILE",
@@ -65,7 +64,6 @@ const rightPodcasts = [
   },
 ];
 
-// One reusable card. We use the same design for all 8 cards.
 function PodcastCard({ podcast, index, rightSide = false }) {
   const moveCard =
     index % 2 === 0
@@ -101,7 +99,6 @@ function PodcastCard({ podcast, index, rightSide = false }) {
   );
 }
 
-// The phone is kept as a separate component to make the main page easier to read.
 function PodcastPhone() {
   const [isPlaying, setIsPlaying] = useState(true);
 
@@ -230,7 +227,6 @@ function PodcastsHero() {
       <div className="pointer-events-none absolute left-1/2 top-1/4 -z-10 h-[500px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gradient-to-tr from-purple-200/40 via-purple-100/30 to-pink-100/20 blur-3xl" />
 
       <div className="mx-auto max-w-[1240px] px-4 sm:px-6">
-        {/* Main heading */}
         <div className="flex flex-col items-center justify-center text-center">
           <div className="mb-8 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#c084fc] via-[#9333ea] to-[#6b21a8] text-3xl text-white shadow-xl shadow-purple-500/20 md:h-20 md:w-20">
             🎙
@@ -245,7 +241,6 @@ function PodcastsHero() {
           </h1>
         </div>
 
-        {/* Left cards + phone + right cards */}
         <div className="relative mx-auto mt-2 max-w-[1100px]">
           <div className="grid grid-cols-1 items-center justify-items-center gap-8 lg:grid-cols-12">
             <div className="hidden w-full grid-cols-2 gap-4 lg:col-span-4 lg:grid">
@@ -258,7 +253,6 @@ function PodcastsHero() {
               ))}
             </div>
 
-            {/* Phone image */}
             <div className="col-span-12 flex w-full justify-center lg:col-span-4">
               <img
                 src={podcasts}
@@ -280,7 +274,6 @@ function PodcastsHero() {
           </div>
         </div>
 
-        {/* Four main features */}
         <div className="mx-auto mt-[100px] max-w-[900px] text-center text-[26px] font-semibold leading-[1.2] sm:text-[34px] lg:text-[48px] lg:leading-[58px]">
           <p>
             <span className="block text-[#aa45e1]">Millions of podcasts,</span>
@@ -308,7 +301,6 @@ function PodcastsHero() {
           </p>
         </div>
 
-        {/* Final description */}
         <div className="text-center">
           <h2 className="mt-[100px] text-[34px] font-semibold leading-[1.15] sm:text-[48px] lg:mt-[150px] lg:text-[64px] lg:leading-[73px]">
             A catalog that

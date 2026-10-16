@@ -2,6 +2,7 @@ import compareS8 from "../../assets/watchultra-compare-s8.jpg";
 import compareSe from "../../assets/watchultra-compare-se.jpg";
 import compareUltra from "../../assets/watchultra-compare-ultra.jpg";
 
+// 2D array (array of array)
 const rows = [
   ["45mm or 41mm case size", "44mm or 40mm", "49mm case size"],
   ["50m water resistant¹", "50m water resistant¹", "100m water resistant²"],

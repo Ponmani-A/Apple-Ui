@@ -15,7 +15,6 @@ import appStore from "../../assets/Apple.png";
 import builtInImage from "../../assets/macbook.jpg";
 import proImage from "../../assets/latest-macbook.jpg";
 
-// Tab name -> andha tab la kaattura text
 const builtInText = {
   Safari:
     "Safari has innovative features that let you enjoy more of the web. In even more ways. Built-in privacy features help protect your information and keep your Mac secure. An updated start page helps you easily and quickly save, find, and share your favorite sites. And Siri suggestions surface bookmarks, links from your reading list, iCloud Tabs, links you receive in Messages, and more.",

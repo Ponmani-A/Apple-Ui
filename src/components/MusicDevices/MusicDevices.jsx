@@ -13,7 +13,7 @@ import pc from "../../assets/macbook.jpg";
 import echo from "../../assets/homepad.jpg";
 import sonos from "../../assets/airpods.jpg";
 import nest from "../../assets/homepad.jpg";
-// note = grey chinna text, link = blue chinna text
+
 const devices = [
   { name: "iPhone", icon: iphone },
   { name: "iPad", icon: ipad },

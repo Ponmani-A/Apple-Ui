@@ -36,7 +36,7 @@ function AirpodsHero() {
 
       <section className="relative flex h-[420px] items-center justify-center overflow-hidden rounded-[28px] bg-white text-center text-[#1d1d1f] sm:h-[520px] lg:h-[680px]">
         <img
-          src={hero3rd}
+          src={hero2nd}
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
         />

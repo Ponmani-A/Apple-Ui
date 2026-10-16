@@ -37,7 +37,6 @@ const redBtn =
 function MusicPlans() {
   return (
     <section className="bg-[#f5f5f7] px-4 py-[80px] lg:pb-[153px] lg:pt-[148px]">
-      {/* Heading */}
       <div className="text-center">
         <img src={appIcon} alt="" className="mx-auto h-[84px] w-[84px]" />
         <h2 className="mt-4 text-[32px] font-semibold leading-[1.14] sm:text-[44px] lg:text-[56px] lg:leading-[64px]">
@@ -80,7 +79,7 @@ function MusicPlans() {
               <p className="max-w-[300px] pr-4 text-[14px] font-semibold leading-5 lg:text-[15px]">
                 {f}
               </p>
-              {/* Checkmark screenshot la illa. Venum-na ✓ inga podunga */}
+
               <div />
               <div />
               <div />

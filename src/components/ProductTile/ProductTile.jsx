@@ -42,7 +42,7 @@ function ProductTile({
       <h2
         className={`flex shrink-0 items-center justify-center gap-1 font-semibold ${titleSize}`}
       >
-        {titleIcon && (
+        {titleIcon && ( //true or false
           <img
             src={appleLogo}
             alt=""
